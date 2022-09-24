@@ -1,2 +1,1 @@
-# as
-# AvaliacaoLP3-3_bim
+# Avaliação LP3 - 3º bimestre
