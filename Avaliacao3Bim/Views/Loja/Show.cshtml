@@ -1,0 +1,15 @@
+@model Avaliacao3Bim.ViewModels.LojaViewModel
+@{
+    ViewData["Title"] = "Loja";
+}
+
+<h1>Loja/Kiosque @Model.Id</h1>
+
+<h3>@Model.Nome</h3>
+
+<p>Id: @Model.Id</p>
+<p>Piso: @Model.Piso</p>
+<p>Descrição: @Model.Desc</p>
+<p>Tipo: @Model.Tipo</p>
+<p>E-mail: @Model.Email</p>
+<a href="/Loja/ExcluirLoja/@Model.Id"><button>Excluir Loja</button></a>
